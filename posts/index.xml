@@ -6,10 +6,22 @@
     <description>Recent content in Posts on 一荤一素</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
-    <lastBuildDate>Tue, 16 Jun 2020 13:57:40 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 14:53:03 +0800</lastBuildDate>
     
 	<atom:link href="http://lxh6688.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用hugo搭建博客</title>
+      <link>http://lxh6688.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 16 Jun 2020 14:53:03 +0800</pubDate>
+      
+      <guid>http://lxh6688.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何用hugo搭建博客 安装hugo 这是hugo的的官网教程：hugo教程
+首先我们需要安装hugo，去hugo的releases页面安卓最新版本，解压以后将其所在的文件路径加到PATH里面，打开终端，运行hugo version查看版本
+搭建博客 我们点击官网以后，点击里面的Quick Star,按照官网给的目录依次进行，这里我罗列出官网给的步骤： 1. hugo new site quickstart（例如：xxx.github.io-creator） 2. git init(需要cd quickstart) 3. it submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 4. echo &amp;lsquo;theme = &amp;ldquo;ananke&amp;rdquo;&amp;rsquo; &amp;raquo; config.toml 5. hugo new posts/my-first-post.md 6. hugo server -D 7. 找到config.toml按下图修改 8. hugo -D 做完这些以后就要在github上创建一个名为[你的用户名.github.io]的仓库，然后进入public文件，以此执行以下代码
+ git init git add . git commit -m hello //关联远程仓库 git remote add origin git@github.com:xxxx/x.github.io.git git push -u origin master 打开x.github.io的Github Pages即可查看博客</description>
+    </item>
     
     <item>
       <title>我的第一篇博客</title>
